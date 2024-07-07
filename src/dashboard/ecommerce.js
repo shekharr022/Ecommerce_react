@@ -23,7 +23,7 @@ const Dash = () => {
 
   return (
     <div className="app">
-      <h1>Ecommerce app by Mayank</h1>
+      <h1>Veggies</h1>
       <div className="search-container">
         <input
           className="search"
@@ -40,7 +40,7 @@ const Dash = () => {
           <div key={product.id} className="product-card">
             <img src={`/images/${product.image}`} alt={product.title} />
             <h3>{product.title}</h3>
-            <p>${product.price.toFixed(2)}</p>
+            <p>Rs. {product.price.toFixed(2)}</p>
             <button>Buy Now</button>
           </div>
         ))}
