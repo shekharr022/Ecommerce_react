@@ -3,9 +3,9 @@ import "../App.css";
 
 const products = [
   { id: 1, title: "Kiwi", price: 2.5, image: "kiwi.jpg" },
-  { id: 2, title: "Tomato", price: 1.5, image: "tomato.webp" },
+  { id: 2, title: "Tomato", price: 1.5, image: "Tomato.webp" },
   { id: 3, title: "Apple", price: 3.0, image: "apple.avif" },
-  { id: 4, title: "Banana", price: 1.0, image: "banana.jpg" },
+  { id: 4, title: "Banana", price: 1.0, image: "Banana.jpg" },
   { id: 5, title: "Orange", price: 2.0, image: "orange.jpg" },
   { id: 6, title: "Strawberry", price: 4.0, image: "strawberry.jpg" },
 ];
